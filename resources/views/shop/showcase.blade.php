@@ -13,7 +13,7 @@
                             <span class="card-text">{{$product->description}}.</span>
                             <p>Precio: $ {{$product->price}}</p>
                             <div class="text-align-right">
-                                <a href="#" class="btn btn-primary">Comprar</a>
+                                <a href="{{asset('/order/create/'.$product->id)}}" class="btn btn-primary">Comprar</a>
                             </div>
                         </div>
                     </div>
