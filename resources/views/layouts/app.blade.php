@@ -42,7 +42,7 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Historico compras') }}</a>
+                                    <a class="nav-link" href="{{ route('order.index') }}">{{ __('Historico compras') }}</a>
                                 </li>
                             @endif
 
